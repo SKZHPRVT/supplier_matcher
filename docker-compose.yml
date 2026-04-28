@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  supplier-matcher:
+    build: .
+    container_name: supplier_matcher
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    environment:
+      - PYTHONPATH=/app
+    command: python main.py
