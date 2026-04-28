@@ -1,0 +1,99 @@
+{
+  "extraction_quality": {
+    "dataset_overview": {
+      "total_records": 40,
+      "unique_products": 40,
+      "unique_suppliers": 6,
+      "unique_categories": 8,
+      "date_range": {
+        "start": "2026-03-15T00:00:00",
+        "end": "2026-03-25T00:00:00"
+      }
+    },
+    "data_quality": {
+      "missing_prices": 0,
+      "missing_prices_pct": 0.0,
+      "missing_dates": 0,
+      "empty_attributes": 0,
+      "valid_records": 40
+    },
+    "price_statistics": {
+      "mean_price": 33846.5,
+      "median_price": 37250.0,
+      "min_price": "3490",
+      "max_price": "68500"
+    }
+  },
+  "search_results": [
+    {
+      "query": "холодильник Bosch серебристый 300л A++",
+      "results_count": 5,
+      "metrics": {
+        "mean_relevance_score": 0.4036,
+        "max_relevance_score": 0.5105,
+        "mean_price": 32878.0,
+        "min_price": "12900",
+        "unique_suppliers": 4,
+        "unique_products": 2,
+        "diversity_score": 0.8,
+        "price_vs_market_avg": 0.9714
+      }
+    },
+    {
+      "query": "кондиционер инверторный 35 квадратов",
+      "results_count": 5,
+      "metrics": {
+        "mean_relevance_score": 0.0687,
+        "max_relevance_score": 0.0718,
+        "mean_price": 53800.0,
+        "min_price": "38900",
+        "unique_suppliers": 4,
+        "unique_products": 3,
+        "diversity_score": 0.8,
+        "price_vs_market_avg": 1.5895
+      }
+    },
+    {
+      "query": "стиральная машина 8кг белая",
+      "results_count": 5,
+      "metrics": {
+        "mean_relevance_score": 0.1836,
+        "max_relevance_score": 0.2432,
+        "mean_price": 38120.0,
+        "min_price": "29800",
+        "unique_suppliers": 4,
+        "unique_products": 3,
+        "diversity_score": 0.8,
+        "price_vs_market_avg": 1.1263
+      }
+    },
+    {
+      "query": "пылесос беспроводной",
+      "results_count": 4,
+      "metrics": {
+        "mean_relevance_score": 0.0698,
+        "max_relevance_score": 0.0731,
+        "mean_price": 24300.0,
+        "min_price": "7200",
+        "unique_suppliers": 4,
+        "unique_products": 3,
+        "diversity_score": 1.0,
+        "price_vs_market_avg": 0.7179
+      }
+    },
+    {
+      "query": "микроволновка с грилем",
+      "results_count": 5,
+      "metrics": {
+        "mean_relevance_score": 0.0752,
+        "max_relevance_score": 0.0764,
+        "mean_price": 18960.0,
+        "min_price": "16200",
+        "unique_suppliers": 5,
+        "unique_products": 3,
+        "diversity_score": 1.0,
+        "price_vs_market_avg": 0.5602
+      }
+    }
+  ]
+}
